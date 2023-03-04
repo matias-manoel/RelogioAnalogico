@@ -21,6 +21,13 @@ body
     justify-content: center;
     background: var(--primary-color);
 }
+body.escuro
+{
+    --primary-color: #242526;
+    --white-color: #18191a;
+    --black-color: #fff;
+    --red-color: #e74c3c;
+}
 .embrulho
 {
     display: flex;
